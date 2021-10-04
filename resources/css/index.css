@@ -1,1 +1,64 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: url('../fonts/AbrilFatface-Regular.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Light.ttf') format('truetype'),
+    url('../fonts/Roboto-LightItalic.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url('../fonts/RobotoSlab-Light.ttf') format('truetype'),
+    url('../fonts/RobotoSlab-Medium.ttf') format('truetype');
+}
+
+*{
+  font-family: "Abril Fatface", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  background-color: #FFFFFF
+}
+
+title {
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  font-size: 100px;
+  color: #312F2F;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight:bold;
+  font-size: 22px;
+  color: #5D711E;
+}
+
+h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #F29069
+}
+
+p, li {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #312F2F;
+}
+
+/*Font properties for links*/
+a{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  color: #5D711E;
+}
