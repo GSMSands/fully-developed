@@ -20,12 +20,15 @@
   font-family: "Abril Fatface", cursive;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
+  margin: 0;
 }
 
+/*Website body*/
 body {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
 }
 
+/*Font properties for big titles and deco text*/
 title {
   font-family: "Abril Fatface", cursive;
   font-weight: normal;
@@ -34,6 +37,7 @@ title {
   text-decoration: none;
 }
 
+/*Font properties for h1 text*/
 h1 {
   font-family: "Roboto Slab", serif;
   font-weight:bold;
@@ -41,6 +45,7 @@ h1 {
   color: #5D711E;
 }
 
+/*Font properties for h2 text*/
 h2 {
   font-family: "Roboto Slab", serif;
   font-weight: normal;
@@ -48,6 +53,7 @@ h2 {
   color: #F29069
 }
 
+/*Font properties for paragraph and links*/
 p, li {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
@@ -61,4 +67,36 @@ a{
   font-weight: normal;
   font-size: 16px;
   color: #5D711E;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+}
+
+/* Style the topnav links */
+.topnav a {
+  font-family: "Roboto Slab", serif;
+  color: #f2f2f2;
+  display: inline-block;
+  padding: 14px 16px;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*Style the content*/
+.content {
+  width: 70%;
+  border: none;
+  padding: 50px;
+  margin: auto;
+  text-align: left;
 }
