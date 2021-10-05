@@ -41,15 +41,15 @@ title {
 h1 {
   font-family: "Roboto Slab", serif;
   font-weight:bold;
-  font-size: 22px;
-  color: #5D711E;
+  font-size: 30px;
+  color: #88A42C;
 }
 
 /*Font properties for h2 text*/
 h2 {
   font-family: "Roboto Slab", serif;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 30px;
   color: #F29069
 }
 
