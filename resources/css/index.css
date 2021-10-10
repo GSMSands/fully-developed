@@ -24,8 +24,14 @@
 }
 
 /*Website body*/
+html, body {
+  height: 100%;
+}
+
 body {
   background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
 }
 
 /*Font properties for big titles and deco text*/
@@ -148,4 +154,13 @@ a{
   padding: 50px;
   margin: auto;
   text-align: left;
+  flex: 1 0 auto;
 }
+
+.footer {
+  flex-shrink: 0;
+  background: #312F2F;
+  height: 50px;
+}
+
+
