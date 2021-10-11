@@ -161,6 +161,12 @@ a{
   flex-shrink: 0;
   background: #312F2F;
   height: 50px;
+  color: white;
 }
+
+.footer center {
+  margin: 15px;
+ }
+
 
 
