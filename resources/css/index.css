@@ -256,3 +256,19 @@ a {
 .footer center {
   margin: 15px;
  }
+
+ /* Responsive Styles */
+ @media screen and (max-width: 720px) {
+  .content {
+    width: 100%;
+  }
+
+  h1, h2, h3, .a2-group-heading {
+    text-align: center;
+  }
+
+  img {
+    height: initial;
+    width: 100%;
+  }
+ }
