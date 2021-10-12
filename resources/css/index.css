@@ -29,12 +29,33 @@ html, body {
   height: 100%;
 }
 
-
+/*Style the body*/
 body {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
 }
+
+/*Style the tables*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #F6F6F6;
+}
+/*end Style the tables*/
 
 /*Font properties for big titles and deco text*/
 title {
