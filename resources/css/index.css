@@ -157,6 +157,7 @@ a{
   flex: 1 0 auto;
 }
 
+/*Style the footer*/
 .footer {
   flex-shrink: 0;
   background: #312F2F;
@@ -167,6 +168,3 @@ a{
 .footer center {
   margin: 15px;
  }
-
-
-
