@@ -205,6 +205,10 @@ a{
    height: 315px;
  }
 
+ li {
+  word-wrap: break-word;
+ }
+
  /* Responsive Styles */
  @media screen and (max-width: 720px) {
   .content {
