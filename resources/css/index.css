@@ -107,8 +107,6 @@ a {
   color: #5D711E;
 }
 
-
-
 /* Style the top navigation bar */
 .topnav {
   background-color: #312F2F;
@@ -222,6 +220,8 @@ a {
   border-radius: 50%;
   width: 10%;
   float: left;
+  margin: 20px;
+  padding: 10px;
 }
 
 /*Style the content*/
