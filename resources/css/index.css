@@ -167,6 +167,24 @@ a{
   	height: 300px;
 }
 
+/*Images*/
+.avatar {
+  display: block;
+  border-radius: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/*Circular avatar rules*/
+.circular {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
 /*Style the content*/
 .content {
   width: 70%;
