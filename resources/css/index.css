@@ -93,8 +93,9 @@ h3 {
 /*Font properties for h4 text (its tiny)*/
 h4 {
   font-family: "Roboto", sans-serif;
+  font-style: italic;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 13px;
   color: #312F2F;
   text-align: justify;
 }
