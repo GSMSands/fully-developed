@@ -21,12 +21,14 @@
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
   margin: 0;
+  box-sizing: border-box;
 }
 
 /*Website body*/
 html, body {
   height: 100%;
 }
+
 
 body {
   background-color: #FFFFFF;
@@ -147,6 +149,24 @@ a{
   background-color: #88A42C;
 }
 
+/*Row for columns*/
+.row {
+  display: flex;
+}
+
+/*Column for profile description*/
+.column-left {
+  flex: 70%;
+  padding: 10px;
+}
+
+/*Column for profile photo*/
+.column-right {
+	flex: 30%;
+  	padding: 10px;
+  	height: 300px;
+}
+
 /*Style the content*/
 .content {
   width: 70%;
@@ -165,6 +185,7 @@ a{
   color: white;
 }
 
+/*Footer center*/
 .footer center {
   margin: 15px;
  }
