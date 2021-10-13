@@ -105,6 +105,15 @@ h4 {
   text-align: justify;
 }
 
+/*Font properties for h5 text (its tiny)*/
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 13px;
+  color: #312F2F;
+  text-align: left;
+}
+
 /*Font properties for paragraph and links*/
 p, li {
   font-family: "Roboto", sans-serif;
