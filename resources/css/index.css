@@ -233,7 +233,7 @@ a {
 /*Avatar Tiny*/
 .avatar-tiny {
   border-radius: 50%;
-  width: 10%;
+  width: 80px;
   float: left;
   margin: 20px;
   padding: 10px;
