@@ -37,6 +37,11 @@ body {
 }
 
 /*Style the tables*/
+.table-wrapper {
+  overflow: auto;
+  width: 100%;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
